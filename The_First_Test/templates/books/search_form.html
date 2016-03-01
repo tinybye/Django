@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+{% if error %}
+   <p style="color: red;">请提交一个搜索内容</p>
+{% endif %}
+    <form action=" " method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
